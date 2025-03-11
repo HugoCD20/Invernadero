@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172657450945",
+    "project_id": "invernadero-90934",
+    "storage_bucket": "invernadero-90934.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172657450945:android:2b4141f42c2e3ec33c1940",
+        "android_client_info": {
+          "package_name": "com.example.invernadero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhEnkSdlm4Qh8PPlR8BwMPmNw3DW-ZX6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
