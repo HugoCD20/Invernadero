@@ -1,10 +1,12 @@
 package com.example.invernadero
 
 import android.content.ContentValues.TAG
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -60,6 +62,12 @@ class MainActivity : AppCompatActivity() {
             .addOnFailureListener { exception ->
                 Log.w(TAG, "Error al obtener los documentos.", exception)
             }
+
+        val historial: Button= findViewById(R.id.button)
+        historial.setOnClickListener {
+            val intent = Intent(this, Historial::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onDestroy() {
